@@ -48,9 +48,6 @@ The following figure displays the fitness of the best individual of each generat
 |35 | 0.05 |
 
 Following is the plot of training and testing of the best model overall:
-
-![image](https://github.com/LuigTi/CNN_NAS/assets/91637040/fefb46fe-7004-49c2-84d1-9b47680b92fd)
-
-
+![image](https://github.com/LuigTi/CNN_NAS/assets/91637040/82d12252-181d-400f-82fc-9ec68bf2602a)
 
 
