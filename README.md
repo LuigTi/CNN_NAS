@@ -2,21 +2,21 @@
 
 ### Objective
 The objective is to utilize a Genetic Algorithm to identify the optimal architecture for a 
-Convolutional Neural Network (CNN) specifically tailored for image classification. This repository presents a 
+Convolutional Neural Network (CNN) is specifically tailored for image classification. This repository presents a 
 specific application of the proposed methodology for image classification, focusing on the well-known 
 “Digits” toy dataset provided by sklearn.
 
 ### Methodology
 A two-fold process is followed: finding the optimal architecture through a genetic 
-algorithm and subsequently training the identified architecture effectively.
+algorithm and subsequently train the identified architecture effectively.
 
-For the first step the fitness of a CNN is defined as follows:
+For the first step, the fitness of a CNN is defined as follows:
 
 $$Fitness = ce + \lambda \frac{N_{p}}{N_{ma}}$$
 
-For the second step the CNN were trained by minimizeing the Negative Log Likelihood Loss:
+For the second step, the CNN were trained by minimizing the Negative Log Likelihood Loss:
 
-$$NLL = -\frac{1}{N} \sum_ {n=1} ^ {N} (log(p(y_{n}|x_{n})$$
+$$NLL = -\frac{1}{N} \sum_ {n=1} ^ {N} (log(p(y_{n}|x_{n})))$$
 
 
 The CNN structure follows the sequence of: 
